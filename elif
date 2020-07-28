@@ -1,0 +1,10 @@
+your_nonneg = input('Enter a non-negative integer >')
+
+if (not(your_nonneg.isnumeric())):
+    print(your_nonneg + ' is not a non-negative integer')
+    
+elif (int(your_nonneg) < 0):
+    print(your_nonneg + ' is not a non-negative integer')
+else:
+
+    print(your_nonneg + ' * 2 is '+ str(int(your_nonneg)*2))
